@@ -1,0 +1,150 @@
+/* estrutura do site */
+
+body {
+  font-size: 1em;
+  font-family: "Red Hat Display";
+  background: hsl(225, 100%, 94%) url(../imgs/pattern-background-desktop.svg)
+    repeat-x;
+  width: 1440px;
+  margin: 15px;
+}
+
+#container {
+  width: 440px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fff;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -o-border-radius: 28px;
+  border-radius: 28px;
+  text-align: center;
+}
+
+/* logo */
+
+#logo img {
+  width: 440px;
+  height: 220px;
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  -o-border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 0 0;
+}
+
+/* estilização */
+
+header > h2 {
+  color: hsl(223, 47%, 23%);
+}
+
+header > p {
+  color: hsl(224, 23%, 55%);
+}
+
+/* plano anual */
+
+section#plano {
+  width: 340px;
+  margin: 0 auto;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+}
+
+h4 {
+  position: relative;
+  bottom: 0.2em;
+  left: 1.5em;
+}
+
+h5 {
+  color: hsl(224, 23%, 55%);
+}
+
+#dinheiro {
+  display: block;
+  position: relative;
+  right: 5.5em;
+  top: 1.6em;
+}
+
+#logo-musica {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: 1.3em;
+  left: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  position: relative;
+  right: 1.1em;
+  bottom: 0.4em;
+  text-decoration: none;
+}
+
+/* botões */
+
+#payment {
+  width: 25em;
+  padding: 1em;
+  font-weight: 900;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 0.8em;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 5px 10px hsl(225, 100%, 94%);
+  -moz-box-shadow: 10px 5px 10px hsl(225, 100%, 94%);
+  -o-box-shadow: 10px 5px 10px hsl(225, 100%, 94%);
+  box-shadow: 10px 5px 10px hsl(225, 100%, 94%);
+}
+
+#cancel {
+  width: 20em;
+  padding: 0.5em;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(224, 23%, 55%);
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#payment:hover {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  -o-opacity: 0.8;
+  opacity: 0.8;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.change:hover {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  -o-opacity: 0.8;
+  opacity: 0.8;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
