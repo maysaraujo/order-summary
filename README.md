@@ -1,1 +1,0 @@
-Desafio do Frontend Mentor.
