@@ -22,4 +22,3 @@
 ## Author
 
 - GitHub: [@maysaraujo](https://github.com/maysaraujo)
-Desafio do Frontend Mentor.
