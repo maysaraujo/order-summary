@@ -1,5 +1,3 @@
-/* estrutura do site */
-
 body {
   font-size: 1em;
   font-family: "Red Hat Display";
@@ -8,7 +6,6 @@ body {
   width: 1440px;
   margin: 15px;
 }
-
 #container {
   width: 440px;
   height: 600px;
@@ -25,9 +22,6 @@ body {
   border-radius: 28px;
   text-align: center;
 }
-
-/* logo */
-
 #logo img {
   width: 440px;
   height: 220px;
@@ -36,19 +30,12 @@ body {
   -o-border-radius: 20px 20px 0 0;
   border-radius: 20px 20px 0 0;
 }
-
-/* estilização */
-
 header > h2 {
   color: hsl(223, 47%, 23%);
 }
-
 header > p {
   color: hsl(224, 23%, 55%);
 }
-
-/* plano anual */
-
 section#plano {
   width: 340px;
   margin: 0 auto;
@@ -63,24 +50,20 @@ section#plano {
   -o-justify-content: space-around;
   justify-content: space-around;
 }
-
 h4 {
   position: relative;
   bottom: 0.2em;
   left: 1.5em;
 }
-
 h5 {
   color: hsl(224, 23%, 55%);
 }
-
 #dinheiro {
   display: block;
   position: relative;
   right: 5.5em;
   top: 1.6em;
 }
-
 #logo-musica {
   width: 48px;
   height: 48px;
@@ -88,20 +71,15 @@ h5 {
   top: 1.3em;
   left: 1em;
 }
-
 ul {
   list-style-type: none;
 }
-
 a {
   position: relative;
   right: 1.1em;
   bottom: 0.4em;
   text-decoration: none;
 }
-
-/* botões */
-
 #payment {
   width: 21.25em;
   padding: 1em;
@@ -116,7 +94,6 @@ a {
   -o-box-shadow: 10px 5px 10px hsl(225, 100%, 94%);
   box-shadow: 10px 5px 10px hsl(225, 100%, 94%);
 }
-
 #cancel {
   width: 20em;
   padding: 0.5em;
@@ -126,7 +103,6 @@ a {
   font-weight: 900;
   cursor: pointer;
 }
-
 #payment:hover {
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
@@ -137,7 +113,6 @@ a {
   -o-transition: 1s;
   transition: 1s;
 }
-
 .change:hover {
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
